@@ -1,5 +1,292 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /*!**********************************************************!*\
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
@@ -30,7 +317,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".overlayBackground{\r\n  width: 100%;\r\n  height: 100%;\r\n  background: url('0.jpeg') no-repeat center;\r\n  background-size: 100% 100%;\r\n  background-position: top center;\r\n  position: absolute;\r\n  \r\n} \r\n.loading {\r\n    position: fixed;\r\n    z-index: 999;\r\n    height: 2em;\r\n    width: 2em;\r\n    overflow: show;\r\n    margin: auto;\r\n    top: 0;\r\n    left: 0;\r\n    bottom: 0;\r\n    right: 0;\r\n  } \r\n.loading:before {\r\n    content: '';\r\n    display: block;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0,0,0,0.3);\r\n  } \r\n.spinner {\r\n    margin: 0px auto 0;\r\n    width: 70px;\r\n    text-align: center;\r\n  } \r\n.spinner > div {\r\n    width: 18px;\r\n    height: 18px;\r\n    background-color: #333;\r\n  \r\n    border-radius: 100%;\r\n    display: inline-block;\r\n    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;\r\n    animation: sk-bouncedelay 1.4s infinite ease-in-out both;\r\n  } \r\n.spinner .bounce1 {\r\n    -webkit-animation-delay: -0.32s;\r\n    animation-delay: -0.32s;\r\n    background-color: white;\r\n  } \r\n.spinner .bounce2 {\r\n    -webkit-animation-delay: -0.16s;\r\n    animation-delay: -0.16s;\r\n      background-color: white;\r\n  } \r\n.spinner .bounce3 {\r\n    -webkit-animation-delay: -0.16s;\r\n    animation-delay: -0.16s;\r\n      background-color: white;\r\n  } \r\n@-webkit-keyframes sk-bouncedelay {\r\n    0%, 80%, 100% { -webkit-transform: scale(0) }\r\n    40% { -webkit-transform: scale(1.0) }\r\n  } \r\n@keyframes sk-bouncedelay {\r\n    0%, 80%, 100% { \r\n      -webkit-transform: scale(0);\r\n      transform: scale(0);\r\n    } 40% { \r\n      -webkit-transform: scale(1.0);\r\n      transform: scale(1.0);\r\n    }\r\n  }"
+module.exports = ".overlayBackground{\r\n  width: 100%;\r\n  height: 100%;\r\n  /* background: url('../assets/images/0.jpeg') no-repeat center; */\r\n  background-size: 100% 100%;\r\n  background-position: top center;\r\n  position: relative;\r\n  overflow: auto;\r\n  /* background: linear-gradient(0.65turn, #9cccdd4f, #ebf8e1, #f69d3c); */\r\n  \r\n} \r\n.loading {\r\n    position: fixed;\r\n    z-index: 999;\r\n    height: 2em;\r\n    width: 2em;\r\n    overflow: show;\r\n    margin: auto;\r\n    top: 0;\r\n    left: 0;\r\n    bottom: 0;\r\n    right: 0;\r\n  } \r\n.loading:before {\r\n    content: '';\r\n    display: block;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0,0,0,0.3);\r\n  } \r\n.spinner {\r\n    margin: 0px auto 0;\r\n    width: 70px;\r\n    text-align: center;\r\n  } \r\n.spinner > div {\r\n    width: 18px;\r\n    height: 18px;\r\n    background-color: #333;\r\n  \r\n    border-radius: 100%;\r\n    display: inline-block;\r\n    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;\r\n    animation: sk-bouncedelay 1.4s infinite ease-in-out both;\r\n  } \r\n.spinner .bounce1 {\r\n    -webkit-animation-delay: -0.32s;\r\n    animation-delay: -0.32s;\r\n    background-color: white;\r\n  } \r\n.spinner .bounce2 {\r\n    -webkit-animation-delay: -0.16s;\r\n    animation-delay: -0.16s;\r\n      background-color: white;\r\n  } \r\n.spinner .bounce3 {\r\n    -webkit-animation-delay: -0.16s;\r\n    animation-delay: -0.16s;\r\n      background-color: white;\r\n  } \r\n@-webkit-keyframes sk-bouncedelay {\r\n    0%, 80%, 100% { -webkit-transform: scale(0) }\r\n    40% { -webkit-transform: scale(1.0) }\r\n  } \r\n@keyframes sk-bouncedelay {\r\n    0%, 80%, 100% { \r\n      -webkit-transform: scale(0);\r\n      transform: scale(0);\r\n    } 40% { \r\n      -webkit-transform: scale(1.0);\r\n      transform: scale(1.0);\r\n    }\r\n  }"
 
 /***/ }),
 
@@ -41,7 +328,7 @@ module.exports = ".overlayBackground{\r\n  width: 100%;\r\n  height: 100%;\r\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"overlayBackground\">\n  <app-header></app-header>\n  <!-- <app-home (selectedTab)=\"changeNewBackground($event)\"></app-home> -->\n  <router-outlet>\n    <span>\n      <div *ngIf=\"LOAD_SPINNER\">\n        <div class=\"loading\">\n          <div class=\"spinner\">\n            <div class=\"bounce1\"></div>\n            <div class=\"bounce2\"></div>\n            <div class=\"bounce3\"></div>\n          </div>\n        </div>\n      </div>\n    </span>\n  </router-outlet>\n</div>\n"
+module.exports = "<div class=\"overlayBackground\" [style.background]=\"backgroundImageName\">\n  <app-header></app-header>\n  <app-home (selectedTab)=\"changeNewBackground($event)\"></app-home>\n  <!-- <router-outlet>\n    <span>\n      <div *ngIf=\"LOAD_SPINNER\">\n        <div class=\"loading\">\n          <div class=\"spinner\">\n            <div class=\"bounce1\"></div>\n            <div class=\"bounce2\"></div>\n            <div class=\"bounce3\"></div>\n          </div>\n        </div>\n      </div>\n    </span>\n  </router-outlet> -->\n</div>\n"
 
 /***/ }),
 
@@ -73,6 +360,7 @@ var AppComponent = /** @class */ (function () {
         this.spinnerService = spinnerService;
         this.title = 'newAppsss';
         this.LOAD_SPINNER = false;
+        this.backgroundImageName = "linear-gradient(0.3turn, #8ed7a1, #f4f0d4, #e0b0d8)";
     }
     //Spinner component initiated
     AppComponent.prototype.ngOnInit = function () {
@@ -85,7 +373,21 @@ var AppComponent = /** @class */ (function () {
     AppComponent.prototype.changeNewBackground = function (tabIndexValue) {
         console.log('event is received');
         console.log('User changed tab to ' + tabIndexValue);
-        this.backgroundImageName = "../../../assets/images/" + tabIndexValue + ".jpeg";
+        if (tabIndexValue == 0) {
+            this.backgroundImageName = "linear-gradient(0.3turn, #8ed7a1, #f4f0d4, #e0b0d8)";
+        }
+        else if (tabIndexValue == 1) {
+            this.backgroundImageName = "linear-gradient(0.2turn, #f4f0d4, #c8edf9, #ffffff)";
+        }
+        else if (tabIndexValue == 2) {
+            this.backgroundImageName = "linear-gradient(0.65turn, #f5d6b5, #ebf8e1, #9cccdd4f)";
+        }
+        else if (tabIndexValue == 3) {
+            this.backgroundImageName = "linear-gradient(0.35turn, #f0af80, #ffffff, #9cccdd4f)";
+        }
+        else if (tabIndexValue == 4) {
+            this.backgroundImageName = "linear-gradient(0.6turn, #4abae2, #ffffff, #abdecd)";
+        }
     };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -200,7 +502,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".contact-form {\r\n    min-width: 150px;\r\n    max-width: 500px;\r\n    width: 100%;\r\n  }\r\n  \r\n  .input-form-width {\r\n    width: 100%;\r\n  }\r\n  \r\n  .contactCard{\r\n      margin-top: 15%;\r\n      margin-left: 20%;\r\n      margin-bottom: 1%;\r\n      border: 1px solid rgba(88, 125, 180, 0.658); \r\n      border-radius: 10%;   \r\n      text-align: center;\r\n  }\r\n  \r\n  .mat-stroked-button{\r\n      width: 75%;\r\n  }"
+module.exports = " \r\n\r\n  .contactCard{ \r\n    max-width: 500px;\r\n    text-align: center;\r\n    border: 1px solid rgba(88, 125, 180, 0.658); \r\n    border-radius: 10%;   \r\n}\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -211,7 +513,7 @@ module.exports = ".contact-form {\r\n    min-width: 150px;\r\n    max-width: 500
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">CONNECT WITH ME</span>\n</div>\n<div class=\"leftContent_contact\">\n  <mat-card class=\"contactCard\">\n    <div class=\"myFont\">\n      LinkedIn <img src=\"../../../assets/images/in.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"https://www.linkedin.com/in/nikhil-desu-55b902ba\" target=\"_blank\">https://www.linkedin.com/in/nikhil-desu-55b902ba/</a></p>\n    </div>\n    <br>\n    <div class=\"myFont\">\n      Git Hub <img src=\"../../../assets/images/github.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"https://github.com/nikhildesu/\" target=\"_blank\">https://github.com/nikhildesu/</a></p>\n    </div>\n    <br>\n    <div class=\"myFont\">\n      Gmail <img src=\"../../../assets/images/gmail.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"#\" >nikhildesu.3289@gmail.com</a></p>\n    </div>\n  </mat-card>\n</div>\n<div class=\"rightContent_contact\">\n  <form #contactForm=\"ngForm\" class=\"contact-form\">\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <input matInput placeholder=\"Your Name\" name=\"name\" [(ngModel)]=\"contactData.name\">\n      </mat-form-field>\n    </div>\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <input matInput placeholder=\"Mobile Number\" name=\"mobile\" [(ngModel)]=\"contactData.mobile\">\n      </mat-form-field>\n    </div>\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <input matInput placeholder=\"Email id\" name=\"email\" [(ngModel)]=\"contactData.email\">\n      </mat-form-field>\n    </div>\n    <br>\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <mat-label>Enter your message</mat-label>\n        <textarea matInput cdkTextareaAutosize #autosize=\"cdkTextareaAutosize\" cdkAutosizeMinRows=\"2\"\n          cdkAutosizeMaxRows=\"5\" name=\"message\" [(ngModel)]=\"contactData.message\"></textarea>\n      </mat-form-field>\n    </div>\n    <br>\n    <div class=\"input-form-width\">\n      <button mat-stroked-button color=\"primary\" (click)=\"sendEmail()\">Submit to Nikhil</button>\n    </div>\n  </form>\n</div>"
+module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">CONNECT WITH ME</span>\n</div>\n<br>\n<div class=\"mainContainer\" style=\"justify-content:space-around\">\n<div class=\"leftContent_contact\">\n  <mat-card class=\"contactCard\">\n    <div class=\"myFont\">\n      LinkedIn <img src=\"../../../assets/images/in.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"https://www.linkedin.com/in/nikhil-desu-55b902ba\" target=\"_blank\">https://www.linkedin.com/in/nikhil-desu-55b902ba/</a></p>\n    </div>\n    <br>\n    <div class=\"myFont\">\n      Git Hub <img src=\"../../../assets/images/github.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"https://github.com/nikhildesu/\" target=\"_blank\">https://github.com/nikhildesu/</a></p>\n    </div>\n    <br>\n    <div class=\"myFont\">\n      Gmail <img src=\"../../../assets/images/gmail.png\" width=\"25px\" height=\"25px\">\n      <p><a href=\"#\" >nikhildesu.3289@gmail.com</a></p>\n    </div>\n  </mat-card>\n</div>\n<div class=\"rightContent_contact\">\n  <div class=\"form-container\"> \n      <mat-form-field >\n        <input matInput placeholder=\"Your Name\" name=\"name\" [(ngModel)]=\"contactData.name\">\n      </mat-form-field>\n      <mat-form-field >\n        <input matInput placeholder=\"Mobile Number\" name=\"mobile\" [(ngModel)]=\"contactData.mobile\">\n      </mat-form-field>\n      <mat-form-field >\n        <input matInput placeholder=\"Email id\" name=\"email\" [(ngModel)]=\"contactData.email\">\n      </mat-form-field>\n    <br>\n      <mat-form-field >\n        <mat-label>Enter your message</mat-label>\n        <textarea matInput cdkTextareaAutosize #autosize=\"cdkTextareaAutosize\" cdkAutosizeMinRows=\"2\"\n          cdkAutosizeMaxRows=\"5\" name=\"message\" [(ngModel)]=\"contactData.message\"></textarea>\n      </mat-form-field>\n    <br>\n      <button mat-stroked-button color=\"primary\" (click)=\"sendEmail()\">Submit to Nikhil</button>\n    </div>\n</div>\n</div>"
 
 /***/ }),
 
@@ -226,9 +528,8 @@ module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/shared/shared.service */ "./src/app/services/shared/shared.service.ts");
-/* harmony import */ var _models_contactDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../models/contactDetails */ "./src/app/models/contactDetails.ts");
+/* harmony import */ var _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/shared/shared.service */ "./src/app/services/shared/shared.service.ts");
+/* harmony import */ var _models_contactDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../models/contactDetails */ "./src/app/models/contactDetails.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -241,11 +542,10 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var ContactComponent = /** @class */ (function () {
     function ContactComponent(sharedService) {
         this.sharedService = sharedService;
-        this.contactData = new _models_contactDetails__WEBPACK_IMPORTED_MODULE_3__["ContactDetails"]();
+        this.contactData = new _models_contactDetails__WEBPACK_IMPORTED_MODULE_2__["ContactDetails"]();
     }
     ContactComponent.prototype.ngOnInit = function () {
     };
@@ -255,17 +555,13 @@ var ContactComponent = /** @class */ (function () {
             console.log('email sent successfully');
         });
     };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('contactForm'),
-        __metadata("design:type", _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgForm"])
-    ], ContactComponent.prototype, "contactForm", void 0);
     ContactComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-contact',
             template: __webpack_require__(/*! ./contact.component.html */ "./src/app/application-components/contact/contact.component.html"),
             styles: [__webpack_require__(/*! ./contact.component.css */ "./src/app/application-components/contact/contact.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_shared_shared_service__WEBPACK_IMPORTED_MODULE_2__["SharedService"]])
+        __metadata("design:paramtypes", [_services_shared_shared_service__WEBPACK_IMPORTED_MODULE_1__["SharedService"]])
     ], ContactComponent);
     return ContactComponent;
 }());
@@ -281,7 +577,7 @@ var ContactComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".certImage{\r\n    width: 75%;\r\n    margin-left: 15%;\r\n}\r\n\r\n.carousel-control-prev-icon{\r\n    background-color: rgb(59, 163, 189);\r\n}\r\n\r\n.carousel-control-next-icon{\r\n    background-color: rgb(59, 163, 189);\r\n}\r\n\r\n.carousel-indicators li {\r\n    background-color: rgb(59, 163, 189);\r\n}"
+module.exports = ".certImage{\r\n    width: 100%;\r\n    /* margin-left: 15%; */\r\n}\r\n\r\n.carousel-control-prev-icon{\r\n    background-color: blue;\r\n    color: white;\r\n}\r\n\r\n.carousel-control-next-icon{\r\n    background-color: blue;\r\n    color: white;\r\n}\r\n\r\n.carousel-indicators li {\r\n    background-color: blue;\r\n    color: white;\r\n}"
 
 /***/ }),
 
@@ -292,7 +588,7 @@ module.exports = ".certImage{\r\n    width: 75%;\r\n    margin-left: 15%;\r\n}\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">MY PROFESSIONAL CAREER HIGHLIGHTS</span>\n</div>\n<br>\n<div id=\"carouselLayout\" class=\"carousel slide\" data-ride=\"carousel\">\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselLayout\" data-slide-to=\"0\" class=\"active\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"1\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"2\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"3\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"4\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"5\"></li>\n  </ol>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert1.JPG\" width=\"500px\" height=\"500px\" alt=\"Angular\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert2.JPG\" width=\"300px\" height=\"500px\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert3.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert4.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert5.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert6.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselLayout\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselLayout\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>"
+module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">MY PROFESSIONAL CAREER HIGHLIGHTS</span>\n</div>\n<br>\n<div class=\"mainContainer\">\n<div id=\"carouselLayout\" class=\"carousel slide\" data-ride=\"carousel\">\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselLayout\" data-slide-to=\"0\" class=\"active\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"1\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"2\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"3\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"4\"></li>\n    <li data-target=\"#carouselLayout\" data-slide-to=\"5\"></li>\n  </ol>\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert1.JPG\" width=\"500px\" height=\"500px\" alt=\"Angular\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert2.JPG\" width=\"300px\" height=\"500px\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert3.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert4.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert5.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img class=\"d-block certImage\" src=\"../../../assets/images/cert6.JPG\" width=\"500px\" height=\"500px\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselLayout\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselLayout\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n</div>"
 
 /***/ }),
 
@@ -319,10 +615,6 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 var HighlightsComponent = /** @class */ (function () {
     function HighlightsComponent() {
-        this.imageUrls = [
-            { url: '../../../assets/images/1.jpeg', caption: 'The first slide' },
-            { url: '../../../assets/images/1.jpeg', caption: 'The second slide' }
-        ];
     }
     HighlightsComponent.prototype.ngOnInit = function () {
     };
@@ -348,7 +640,7 @@ var HighlightsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".linerClass{\r\n  border: 3px solid rgba(129, 150, 182, 0.658);\r\n  border-right: 0;   \r\n  border-left: 0;   \r\n  padding: 2%;\r\n}\r\n\r\n.image-card {\r\n    max-width: 60%;\r\n    margin-left: 15%;\r\n    margin-top: 5%;\r\n    margin-bottom: 1%;\r\n    border: 1px solid rgba(88, 125, 180, 0.658); \r\n    border-radius: 10%;   \r\n  }\r\n\r\n.myImage{\r\n    border: 1px solid rgba(88, 125, 180, 0.658); \r\n    border-top-right-radius: 10%;\r\n    border-top-left-radius: 10%;\r\n  }\r\n\r\n.hireBtn{\r\n      min-width: 50%;\r\n      margin-left: 25%;\r\n      font-size: 15px;\r\n  }\r\n\r\n.chipCards{\r\n  width: 160px;\r\n  height: 50px; \r\n  line-height: 50px; \r\n  cursor: pointer; \r\n  font-size: 15px;\r\n  text-align: center;\r\n  border: 1px solid rgba(88, 125, 180, 0.658); \r\n  border-radius: 5px;   \r\n  background: -webkit-radial-gradient(rgb(28, 57, 185), rgb(201, 91, 91));\r\n  -webkit-background-clip: text;\r\n  -webkit-text-fill-color: transparent;\r\n}\r\n\r\n.button-row button,\r\n.button-row a {\r\n  margin-right: 30px;\r\n}\r\n\r\n.polaroid {\r\n  width: 250px;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  text-align: center;\r\n}\r\n\r\n.container {\r\n  padding: 10px;\r\n}"
+module.exports = ".linerClass{\r\n  border: 3px solid rgba(129, 150, 182, 0.658);\r\n  border-right: 0;   \r\n  border-left: 0;   \r\n  padding: 2%;\r\n}\r\n\r\n\r\n.image-card {\r\n  width: 100%;\r\n  /* margin-left: 10%; */\r\n  /* margin-top: 5%; */\r\n  margin-bottom: 1%;\r\ntext-align: center;\r\nborder: 1px solid rgba(88, 125, 180, 0.658); \r\nborder-radius: 10%;\r\n/* border-top-left-radius: 10%;   */\r\n}\r\n\r\n\r\n.myImage{\r\n  border: 1px solid rgba(88, 125, 180, 0.658); \r\n  border-top-right-radius: 10%;\r\n  border-top-left-radius: 10%;\r\n}\r\n\r\n\r\n.hireBtn{\r\n    width: 60%;\r\n    font-size: 15px;\r\n}\r\n\r\n\r\n.chipCards{\r\nwidth: 160px;\r\nheight: 50px; \r\nline-height: 50px; \r\ncursor: pointer; \r\nfont-size: 15px;\r\ntext-align: center;\r\nborder: 1px solid rgba(88, 125, 180, 0.658); \r\nborder-radius: 5px;   \r\nbackground: -webkit-radial-gradient(rgb(28, 57, 185), rgb(201, 91, 91));\r\n-webkit-background-clip: text;\r\n-webkit-text-fill-color: transparent;\r\n}\r\n\r\n\r\n.button-row button,\r\n.button-row a {\r\nwidth: 150px; \r\nmargin: 15px 0 15px 15px;\r\ntext-align: center;\r\n}"
 
 /***/ }),
 
@@ -359,7 +651,7 @@ module.exports = ".linerClass{\r\n  border: 3px solid rgba(129, 150, 182, 0.658)
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">INTRODUCTION</span>\n</div>\n<div class=\"leftContent\">\n  <mat-card class=\"image-card\">\n    <img class=\"myImage\" mat-card-image src=\"../../../assets/images/Nikhil_pic.jpg\" alt=\"Photo of a Shiba Inu\">\n    <button class=\"hireBtn\" mat-stroked-button color=\"primary\" (click)=\"openHireDialog()\">Hire Me</button>\n  </mat-card>\n\n</div>\n\n<div class=\"rightContent\">\n  <p style=\"font-size: 50px;\">Nikhil &nbsp;Desu</p>\n  <br>\n  <div class=\"linerClass\">Web Developer | Creative Designer</div>\n  <br>\n  <div class=\"description\">Love to do things in creative way !</div>\n  <br><br>\n  <div class=\"button-row\">\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" target=\"_blank\"> <button class=\"chipCards\" mat-button>View\n        Resume</button></a>\n\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" download> <button class=\"chipCards\" mat-button>Download Resume \n      </button></a>\n  </div>\n  <br>\n  <!-- <div class=\"imageRow1\">\n      <img src=\"../../../assets/images/angular.png\" class=\"stackImage\"> \n      <img src=\"../../../assets/images/javascript.png\" class=\"stackImage\">\n      <img src=\"../../../assets/images/typescript.jpg\" class=\"stackImage\">\n      <img src=\"../../../assets/images/HTML5.png\" class=\"stackImage\">\n      <img src=\"../../../assets/images/css.png\" class=\"stackImage\">\n      <img src=\"../../../assets/images/bootstrap.png\" class=\"stackImage\">\n   </div>\n   <br>\n   <div class=\"imageRow2\">\n      <img src=\"../../../assets/images/jquery.png\" class=\"stackImage\">          \n      <img src=\"../../../assets/images/node.jpg\" class=\"stackImage\">\n      <img src=\"../../../assets/images/expressjs.png\" class=\"stackImage\">\n      <img src=\"../../../assets/images/mongo.png\" class=\"stackImage\">\n      <img src=\"../../../assets/images/java.jpg\" class=\"stackImage\">\n      <img src=\"../../../assets/images/oracle.jpg\" class=\"stackImage\">\n   </div> -->\n   \n</div>\n\n \n     \n "
+module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">INTRODUCTION</span>\n</div>\n<br>\n<div class=\"mainContainer\">\n<div class=\"leftContent\">\n  <mat-card class=\"image-card\">\n    <img class=\"myImage\" mat-card-image src=\"../../../assets/images/Nikhil_pic.jpg\" alt=\"Photo of a Shiba Inu\">\n    <button class=\"hireBtn\" mat-stroked-button color=\"primary\" (click)=\"openHireDialog()\">Hire Me</button>\n  </mat-card>\n\n</div>\n\n<div class=\"rightContent\">\n  <p style=\"font-size: 50px;\">Nikhil &nbsp;Desu</p>\n  <br>\n  <div class=\"linerClass\">Web Developer | Creative Designer</div>\n  <br>\n  <div class=\"description\">Love to do things in creative way !</div>\n  <br><br>\n  <div class=\"button-row\">\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" target=\"_blank\"> <button class=\"chipCards\" mat-button>View\n        Resume</button></a>\n\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" download> <button class=\"chipCards\" mat-button>Download Resume \n      </button></a>\n  </div>\n  <br>\n  <div>\n    <!-- <div class=\"imageRow\">\n        <img src=\"../../../assets/images/angular.png\" class=\"stackImage stackUp\"> \n        <img src=\"../../../assets/images/javascript.png\" class=\"stackImage\">\n        <img src=\"../../../assets/images/typescript.jpg\" class=\"stackImage stackUp\">\n        <img src=\"../../../assets/images/HTML5.png\" class=\"stackImage\">\n        <img src=\"../../../assets/images/css.png\" class=\"stackImage stackUp\">\n        <img src=\"../../../assets/images/bootstrap.png\" class=\"stackImage\">\n     </div>\n     <div class=\"imageRow\">\n        <img src=\"../../../assets/images/jquery.png\" class=\"stackImage stackUp\">          \n        <img src=\"../../../assets/images/node.jpg\" class=\"stackImage\">\n        <img src=\"../../../assets/images/expressjs.png\" class=\"stackImage stackUp\">\n        <img src=\"../../../assets/images/mongo.png\" class=\"stackImage\">\n        <img src=\"../../../assets/images/java.jpg\" class=\"stackImage stackUp\">\n        <img src=\"../../../assets/images/oracle.jpg\" class=\"stackImage\">\n     </div> -->\n    </div>\n   \n</div>\n\n \n     \n "
 
 /***/ }),
 
@@ -505,7 +797,7 @@ module.exports = ".button-column button,\r\n.button-column a {\r\n  margin-botto
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">MY PORTFOLIO and RESUME</span>\n</div>\n<div class=\"flexText generalFont\">\n  <span>Here is my visual representation of my knowledge and experience</span>\n</div>\n<div class=\"leftContent_portfolio\">\n  <div class=\"flexText myFont\">\n    <h3>Professional</h3>\n  </div>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Team Lead | Team Player</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Front end - UI Developer</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Angular | Node | Javascript</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">HTML | CSS | Bootstrap</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%\" aria-valuenow=\"80\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">80%</div>\n  </div>\n  <label class=\"flexText myFont\">Java | Spring boot | Microservices</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%\" aria-valuenow=\"80\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">80%</div>\n  </div>\n  <label class=\"flexText myFont\">Production Support Executive</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 85%\" aria-valuenow=\"85\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">85%</div>\n  </div>\n  <label class=\"flexText myFont\">Oracle | PLSQL Developer</label>\n  <br>\n</div>\n\n<div class=\"middleContent_portfolio\">\n  <div class=\"button-column\">\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" target=\"_blank\"> <button class=\"chipCards_portfolio\"\n        mat-stroked-button color=\"primary\">View Resume</button></a>\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" download><button class=\"chipCards_portfolio\" mat-stroked-button\n        color=\"primary\">Download Resume</button></a>\n  </div>\n</div>\n\n<div class=\"rightContent_portfolio\">\n  <div class=\"flexText myFont\">\n    <h3>Personal</h3>\n  </div>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Love with Family</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">As a son | As a father</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Sports - Cricket</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 70%\" aria-valuenow=\"70\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">70%</div>\n  </div>\n  <label class=\"flexText myFont\">Sports - Badminton</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Games - NFS, Tekken3</label>\n  <br>\n</div>"
+module.exports = "<div class=\"titleFont\">\n  <span style=\"letter-spacing:0.05em; \">MY PORTFOLIO and RESUME</span>\n</div>\n<div class=\"flexText generalFont\">\n  <span>Here is my visual representation of my knowledge and experience</span>\n</div>\n<div class=\"mainContainer\">\n<div class=\"leftContent_portfolio\">\n  <div class=\"flexText myFont\">\n    <h3>Professional</h3>\n  </div>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Team Lead | Team Player</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Front end - UI Developer</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Angular | Node | Javascript</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">HTML | CSS | Bootstrap</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%\" aria-valuenow=\"80\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">80%</div>\n  </div>\n  <label class=\"flexText myFont\">Java | Spring boot | Microservices</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 80%\" aria-valuenow=\"80\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">80%</div>\n  </div>\n  <label class=\"flexText myFont\">Production Support Executive</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 85%\" aria-valuenow=\"85\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">85%</div>\n  </div>\n  <label class=\"flexText myFont\">Oracle | PLSQL Developer</label>\n  <br>\n</div>\n\n<div class=\"middleContent_portfolio\">\n  <div class=\"button-column\">\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" target=\"_blank\"> <button class=\"chipCards_portfolio\"\n        mat-stroked-button color=\"primary\">View Resume</button></a>\n    <a href=\"../../../assets/pdfs/Nikhil_Resume.pdf\" download><button class=\"chipCards_portfolio\" mat-stroked-button\n        color=\"primary\">Download Resume</button></a>\n  </div>\n</div>\n\n<div class=\"rightContent_portfolio\">\n  <div class=\"flexText myFont\">\n    <h3>Personal</h3>\n  </div>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Love with Family</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">As a son | As a father</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"100\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">100%</div>\n  </div>\n  <label class=\"flexText myFont\">Sports - Cricket</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 70%\" aria-valuenow=\"70\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">70%</div>\n  </div>\n  <label class=\"flexText myFont\">Sports - Badminton</label>\n  <br>\n  <div class=\"progress\">\n    <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 90%\" aria-valuenow=\"90\" aria-valuemin=\"0\"\n      aria-valuemax=\"100\">90%</div>\n  </div>\n  <label class=\"flexText myFont\">Games - NFS, Tekken3</label>\n  <br>\n</div>\n</div>"
 
 /***/ }),
 
@@ -557,7 +849,7 @@ var PortfolioComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* .mat-dialog-content{\r\n    font : 16px  'Calibri';\r\n    color: red;  \r\n    align-content: center;\r\n    align-items: center;\r\n    margin-top: 5%;\r\n    max-width: 100%;\r\n} */\r\n\r\n \r\n.contact-form { \r\n    width: 100%;\r\n  }\r\n\r\n \r\n.input-form-width {\r\n    width: 30%;\r\n    margin-right: 3%;\r\n    float: left;\r\n  }\r\n\r\n \r\n.mat-stroked-button{\r\n    width: 40%;\r\n}"
+module.exports = "  \r\n .form-container{\r\n  overflow: auto;\r\n }\r\n\r\n .button-row{\r\n  text-align: center;\r\n }\r\n\r\n .button-row button,\r\n.button-row a {\r\n  /* width: 150px;  */\r\n  margin: 15px;\r\n}"
 
 /***/ }),
 
@@ -568,7 +860,7 @@ module.exports = "/* .mat-dialog-content{\r\n    font : 16px  'Calibri';\r\n    
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div></div>\n\n<div mat-dialog-content class=\"flexText myFont\" style=\"font-size: 23px;\">\n\n  I'm glad to hear that you would like to hire me. Please send your details to discuss further. </div>\n<div>\n  <br>\n  <form  #contactForm=\"ngForm\" class=\"contact-form\">\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <input matInput placeholder=\"Your Name\" name=\"name\" [(ngModel)]=\"contactData.name\">\n      </mat-form-field>\n    </div>\n    <div>\n      <mat-form-field class=\"input-form-width\">\n        <input matInput placeholder=\"Mobile Number\" name=\"mobile\" [(ngModel)]=\"contactData.mobile\">\n      </mat-form-field>\n    </div>\n    <div>\n      <mat-form-field class=\"input-form-width\" >\n        <input matInput placeholder=\"Email id\" name=\"email\" [(ngModel)]=\"contactData.email\">\n      </mat-form-field>\n    </div>\n\n    <div>\n      <mat-form-field style=\"width: 100%;\">\n        <mat-label>Enter your message</mat-label>\n        <textarea matInput cdkTextareaAutosize #autosize=\"cdkTextareaAutosize\" cdkAutosizeMinRows=\"2\"\n          cdkAutosizeMaxRows=\"5\" value=\" Dear Nikhil,\n\n                             We looked at your profile and interested in discussing further to hire you.\n      \n      Thank you. \" name=\"message\" [(ngModel)]=\"contactData.message\"></textarea>\n      </mat-form-field>\n    </div>\n  </form>\n\n  <div style=\"margin-left: 15%; margin-top: 3%;\">\n    <button mat-stroked-button (click)=\"dialogRef.close(false)\">Cancel</button>\n    <button mat-stroked-button color=\"primary\" style=\"margin-left: 10%;color:green; border-color: green;\"\n      (click)=\"dialogRef.close(true); sendEmail()\">\n      Submit to Nikhil <img src=\"../../../assets/images/tick.png\" width=\"25px\" height=\"25px\"> </button>\n  </div>\n</div>\n<br>"
+module.exports = "<div></div>\n\n<div mat-dialog-content class=\"flexText myFont\" style=\"font-size: 23px;\">\n\n  I'm glad to hear that you would like to hire me. Please send your details to discuss further. </div>\n<div>\n  <br>\n  <div>\n  <div class=\"form-container\"> \n      <mat-form-field >\n        <input matInput placeholder=\"Your Name\" name=\"name\" [(ngModel)]=\"contactData.name\">\n      </mat-form-field>\n      <mat-form-field >\n        <input matInput placeholder=\"Mobile Number\" name=\"mobile\" [(ngModel)]=\"contactData.mobile\">\n      </mat-form-field>\n      <mat-form-field  >\n        <input matInput placeholder=\"Email id\" name=\"email\" [(ngModel)]=\"contactData.email\">\n      </mat-form-field>\n\n      <mat-form-field style=\"width: 100%;\">\n        <mat-label>Enter your message</mat-label>\n        <textarea matInput cdkTextareaAutosize #autosize=\"cdkTextareaAutosize\" cdkAutosizeMinRows=\"2\"\n          cdkAutosizeMaxRows=\"5\" value=\" Dear Nikhil,\n\n                             We looked at your profile and interested in discussing further to hire you.\n      \n      Thank you. \" name=\"message\" [(ngModel)]=\"contactData.message\"></textarea>\n      </mat-form-field>\n\n  <div  class=\"button-row\">\n    <button mat-stroked-button (click)=\"dialogRef.close(false)\">Cancel</button>\n    <button mat-stroked-button color=\"primary\" style=\"color:green; border-color: green;\"\n      (click)=\"dialogRef.close(true); sendEmail()\">\n      Submit to Nikhil <img src=\"../../../assets/images/tick.png\" width=\"25px\" height=\"25px\"> </button>\n  </div>\n</div>\n</div>\n<br>"
 
 /***/ }),
 
@@ -585,8 +877,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 /* harmony import */ var _models_contactDetails__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../models/contactDetails */ "./src/app/models/contactDetails.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/shared/shared.service */ "./src/app/services/shared/shared.service.ts");
+/* harmony import */ var _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/shared/shared.service */ "./src/app/services/shared/shared.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -596,7 +887,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 
@@ -615,17 +905,13 @@ var HireDialogComponent = /** @class */ (function () {
             console.log('email sent successfully');
         });
     };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('contactForm'),
-        __metadata("design:type", _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"])
-    ], HireDialogComponent.prototype, "contactForm", void 0);
     HireDialogComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-hire-dialog',
             template: __webpack_require__(/*! ./hire-dialog.component.html */ "./src/app/common-components/hire-dialog/hire-dialog.component.html"),
             styles: [__webpack_require__(/*! ./hire-dialog.component.css */ "./src/app/common-components/hire-dialog/hire-dialog.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"], _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_4__["SharedService"]])
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"], _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_3__["SharedService"]])
     ], HireDialogComponent);
     return HireDialogComponent;
 }());
@@ -767,7 +1053,7 @@ var HeaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".top-menu{\r\n    display: -webkit-flex;\r\n    display: flex;  \r\n    -webkit-justify-content: center;  \r\n            justify-content: center;  \r\n    -webkit-flex-flow: row wrap;  \r\n            flex-flow: row wrap;\r\n    -webkit-align-content: flex-end;\r\n            align-content: flex-end;\r\n}\r\n\r\n.tab-icon {\r\n    margin-right: 8px;\r\n  }\r\n\r\n@media (max-width:599px){\r\n    .mat-tab-group{\r\n        white-space: nowrap;\r\n        overflow: auto;\r\n        -webkit-align-content: center;\r\n                align-content: center;\r\n    }\r\n  }"
+module.exports = ".top-menu{\r\n    margin: 2%;\r\n}\r\n\r\n.tab-icon {\r\n    margin-right: 8px;\r\n  }\r\n\r\n.userDetails{\r\n    text-align: right;\r\n    margin-top: 1%;\r\n    margin-right: 1%;\r\n    font-family: 'Footlight MT Light';\r\n  font-weight: 500;\r\n    color: darkolivegreen;\r\n}\r\n\r\n.vertical-align-middle { \r\n  vertical-align: middle; \r\n}\r\n\r\n.padding-bottom-30 {\r\n  padding-bottom: 30px;\r\n}\r\n "
 
 /***/ }),
 
@@ -778,7 +1064,7 @@ module.exports = ".top-menu{\r\n    display: -webkit-flex;\r\n    display: flex;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"top-menu\">\n  <mat-tab-group (selectedTabChange)=\"changeBackground($event)\">\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">person_pin</mat-icon>\n        Intro\n      </ng-template>\n      <app-intro></app-intro>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">explore</mat-icon>\n        Discover me\n      </ng-template>\n      <app-my-story></app-my-story>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">ballot</mat-icon>\n        My Portfolio\n      </ng-template>\n      <app-portfolio></app-portfolio>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">highlight</mat-icon>\n        Career Highlights\n      </ng-template>\n      <app-highlights></app-highlights>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">contact_mail</mat-icon>\n        Contact\n      </ng-template>\n      <app-contact></app-contact>\n    </mat-tab>\n  </mat-tab-group>\n</div>"
+module.exports = "<div class=\"userDetails\">\n  <mat-icon class=\"vertical-align-middle padding-bottom-30\">location_on</mat-icon> \n Your Location :  {{userCity}} , {{userTime}}  <br>\nWeather :  {{userWeather}}°  \n  <img src=\"http://openweathermap.org/img/wn/{{userWeatherIcon}}@2x.png\" width=\"50px\" height=\"50px\"/>  \n</div>\n<div class=\"top-menu\">\n  <mat-tab-group (selectedTabChange)=\"changeBackground($event)\">\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">person_pin</mat-icon>\n        Intro\n      </ng-template>\n      <app-intro></app-intro>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">explore</mat-icon>\n        Discover me\n      </ng-template>\n      <app-my-story></app-my-story>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">ballot</mat-icon>\n        My Portfolio\n      </ng-template>\n      <app-portfolio></app-portfolio>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">highlight</mat-icon>\n        Career Highlights\n      </ng-template>\n      <app-highlights></app-highlights>\n    </mat-tab>\n\n    <mat-tab>\n      <ng-template mat-tab-label>\n        <mat-icon class=\"tab-icon\">contact_mail</mat-icon>\n        Contact\n      </ng-template>\n      <app-contact></app-contact>\n    </mat-tab>\n  </mat-tab-group>\n</div>"
 
 /***/ }),
 
@@ -794,6 +1080,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_app_services_spinner_spinner_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/services/spinner/spinner.service */ "./src/app/services/spinner/spinner.service.ts");
+/* harmony import */ var _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/shared/shared.service */ "./src/app/services/shared/shared.service.ts");
+/* harmony import */ var moment_timezone__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! moment-timezone */ "./node_modules/moment-timezone/index.js");
+/* harmony import */ var moment_timezone__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment_timezone__WEBPACK_IMPORTED_MODULE_3__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -805,16 +1094,30 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
+
 var HomeComponent = /** @class */ (function () {
-    function HomeComponent(spinnerService) {
+    function HomeComponent(spinnerService, sharedService) {
         this.spinnerService = spinnerService;
+        this.sharedService = sharedService;
         this.selectedTab = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
     HomeComponent.prototype.ngOnInit = function () {
-        // this.spinnerService.display(true);
-        setTimeout(function () {
-            // this.spinnerService.display(false);
-        }, 3000);
+        this.getUserSpecificDetails();
+    };
+    HomeComponent.prototype.getUserSpecificDetails = function () {
+        var _this = this;
+        this.userTimezone = moment_timezone__WEBPACK_IMPORTED_MODULE_3__["tz"].guess();
+        this.userTime = moment_timezone__WEBPACK_IMPORTED_MODULE_3__().tz(this.userTimezone).format('MMM DD YYYY hh:mm A');
+        this.userCitySplit = this.userTimezone.split('/');
+        this.userCity = this.userCitySplit[1].replace(/_/g, " ");
+        this.sharedService.get('getUserWeather').subscribe(function (data) {
+            console.log('Response receieved from Weather API : ' + JSON.stringify(data));
+            _this.weatherResult = data;
+            _this.userWeather = _this.weatherResult.weather[0].main + " , " + _this.weatherResult.main.temp;
+            _this.userWeatherIcon = _this.weatherResult.weather[0].icon;
+        });
+        console.log('userCity' + this.userCity);
     };
     HomeComponent.prototype.changeBackground = function (event) {
         console.log('event is ' + event.index);
@@ -832,7 +1135,7 @@ var HomeComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./home.component.html */ "./src/app/layout-components/home/home.component.html"),
             styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/layout-components/home/home.component.css")]
         }),
-        __metadata("design:paramtypes", [src_app_services_spinner_spinner_service__WEBPACK_IMPORTED_MODULE_1__["SpinnerService"]])
+        __metadata("design:paramtypes", [src_app_services_spinner_spinner_service__WEBPACK_IMPORTED_MODULE_1__["SpinnerService"], _services_shared_shared_service__WEBPACK_IMPORTED_MODULE_2__["SharedService"]])
     ], HomeComponent);
     return HomeComponent;
 }());
@@ -1020,8 +1323,8 @@ var SharedService = /** @class */ (function () {
         this.apiUrl = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_2__["environment"].prd.apiEndpoint;
     };
     SharedService.prototype.get = function (serviceUrl) {
-        console.log('GET REQUEST ');
-        return this.httpClient.get(this.apiUrl)
+        console.log('GET REQUEST for GET URL - ' + this.apiUrl + serviceUrl);
+        return this.httpClient.get(this.apiUrl + serviceUrl)
             .catch(this.handleError);
     };
     SharedService.prototype.post = function (serviceUrl, resource) {
@@ -1102,7 +1405,7 @@ __webpack_require__.r(__webpack_exports__);
 var environment = {
     production: true,
     prd: {
-        apiEndpoint: 'https://email-generator-nodejs.herokuapp.com/'
+        apiEndpoint: 'http://localhost:3000/'
     }
 };
 
