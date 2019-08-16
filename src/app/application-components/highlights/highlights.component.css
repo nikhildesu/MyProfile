@@ -1,0 +1,19 @@
+.certImage{
+    width: 100%;
+    /* margin-left: 15%; */
+}
+
+.carousel-control-prev-icon{
+    background-color: blue;
+    color: white;
+}
+
+.carousel-control-next-icon{
+    background-color: blue;
+    color: white;
+}
+
+.carousel-indicators li {
+    background-color: blue;
+    color: white;
+}

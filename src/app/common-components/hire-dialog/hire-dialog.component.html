@@ -1,0 +1,38 @@
+<div></div>
+
+<div mat-dialog-content class="flexText myFont" style="font-size: 23px;">
+
+  I'm glad to hear that you would like to hire me. Please send your details to discuss further. </div>
+<div>
+  <br>
+  <div>
+  <div class="form-container"> 
+      <mat-form-field >
+        <input matInput placeholder="Your Name" name="name" [(ngModel)]="contactData.name">
+      </mat-form-field>
+      <mat-form-field >
+        <input matInput placeholder="Mobile Number" name="mobile" [(ngModel)]="contactData.mobile">
+      </mat-form-field>
+      <mat-form-field  >
+        <input matInput placeholder="Email id" name="email" [(ngModel)]="contactData.email">
+      </mat-form-field>
+
+      <mat-form-field style="width: 100%;">
+        <mat-label>Enter your message</mat-label>
+        <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="2"
+          cdkAutosizeMaxRows="5" value=" Dear Nikhil,
+
+                             We looked at your profile and interested in discussing further to hire you.
+      
+      Thank you. " name="message" [(ngModel)]="contactData.message"></textarea>
+      </mat-form-field>
+
+  <div  class="button-row">
+    <button mat-stroked-button (click)="dialogRef.close(false)">Cancel</button>
+    <button mat-stroked-button color="primary" style="color:green; border-color: green;"
+      (click)="dialogRef.close(true); sendEmail()">
+      Submit to Nikhil <img src="../../../assets/images/tick.png" width="25px" height="25px"> </button>
+  </div>
+</div>
+</div>
+<br>

@@ -1,0 +1,50 @@
+.linerClass{
+  border: 3px solid rgba(129, 150, 182, 0.658);
+  border-right: 0;   
+  border-left: 0;   
+  padding: 2%;
+}
+
+
+.image-card {
+  width: 100%;
+  /* margin-left: 10%; */
+  /* margin-top: 5%; */
+  margin-bottom: 1%;
+text-align: center;
+border: 1px solid rgba(88, 125, 180, 0.658); 
+border-radius: 10%;
+/* border-top-left-radius: 10%;   */
+}
+
+.myImage{
+  border: 1px solid rgba(88, 125, 180, 0.658); 
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}  
+
+.hireBtn{
+    width: 60%;
+    font-size: 15px;
+}
+
+.chipCards{
+width: 160px;
+height: 50px; 
+line-height: 50px; 
+cursor: pointer; 
+font-size: 15px;
+text-align: center;
+border: 1px solid rgba(88, 125, 180, 0.658); 
+border-radius: 5px;   
+background: -webkit-radial-gradient(rgb(28, 57, 185), rgb(201, 91, 91));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.button-row button,
+.button-row a {
+width: 150px; 
+margin: 15px 0 15px 15px;
+text-align: center;
+}

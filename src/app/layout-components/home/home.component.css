@@ -1,0 +1,26 @@
+.top-menu{
+    margin: 2%;
+}
+
+.tab-icon {
+    margin-right: 8px;
+  }
+ 
+
+  .userDetails{
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-family: 'Footlight MT Light';
+  font-weight: 500;
+    color: darkolivegreen;
+}
+
+.vertical-align-middle { 
+  vertical-align: middle; 
+}
+
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+ 

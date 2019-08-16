@@ -1,0 +1,45 @@
+<div class="titleFont">
+  <span style="letter-spacing:0.05em; ">CONNECT WITH ME</span>
+</div>
+<br>
+<div class="mainContainer" style="justify-content:space-around">
+<div class="leftContent_contact">
+  <mat-card class="contactCard">
+    <div class="myFont">
+      LinkedIn <img src="../../../assets/images/in.png" width="25px" height="25px">
+      <p><a href="https://www.linkedin.com/in/nikhil-desu-55b902ba" target="_blank">https://www.linkedin.com/in/nikhil-desu-55b902ba/</a></p>
+    </div>
+    <br>
+    <div class="myFont">
+      Git Hub <img src="../../../assets/images/github.png" width="25px" height="25px">
+      <p><a href="https://github.com/nikhildesu/" target="_blank">https://github.com/nikhildesu/</a></p>
+    </div>
+    <br>
+    <div class="myFont">
+      Gmail <img src="../../../assets/images/gmail.png" width="25px" height="25px">
+      <p><a href="#" >nikhildesu.3289@gmail.com</a></p>
+    </div>
+  </mat-card>
+</div>
+<div class="rightContent_contact">
+  <div class="form-container"> 
+      <mat-form-field >
+        <input matInput placeholder="Your Name" name="name" [(ngModel)]="contactData.name">
+      </mat-form-field>
+      <mat-form-field >
+        <input matInput placeholder="Mobile Number" name="mobile" [(ngModel)]="contactData.mobile">
+      </mat-form-field>
+      <mat-form-field >
+        <input matInput placeholder="Email id" name="email" [(ngModel)]="contactData.email">
+      </mat-form-field>
+    <br>
+      <mat-form-field >
+        <mat-label>Enter your message</mat-label>
+        <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMinRows="2"
+          cdkAutosizeMaxRows="5" name="message" [(ngModel)]="contactData.message"></textarea>
+      </mat-form-field>
+    <br>
+      <button mat-stroked-button color="primary" (click)="sendEmail()">Submit to Nikhil</button>
+    </div>
+</div>
+</div>

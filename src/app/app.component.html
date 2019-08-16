@@ -1,0 +1,17 @@
+<div class="overlayBackground" [style.background]="backgroundImageName">
+  <app-header></app-header>
+  <app-home (selectedTab)="changeNewBackground($event)"></app-home>
+  <!-- <router-outlet>
+    <span>
+      <div *ngIf="LOAD_SPINNER">
+        <div class="loading">
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </router-outlet> -->
+</div>
