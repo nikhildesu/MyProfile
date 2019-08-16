@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
     this.userTime=moment_timezone().tz(this.userTimezone).format('MMM DD YYYY hh:mm A')
     this.userCitySplit=this.userTimezone.split('/');
     this.userCity=this.userCitySplit[1].replace(/_/g, " ")
-    this.sharedService.get('getUserWeather').subscribe(
+    this.sharedService.get('getUserWeather/:'+this.userCity).subscribe(
       data => {
         console.log('Response receieved from Weather API : ' +JSON.stringify(data))
         this.weatherResult = data;
