@@ -7,11 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "e2e": "ng e2e"
   },
   "private": true,
-  "homepage": "https://nikhildesu.github.io/",
   "dependencies": {
     "@angular/animations": "^6.1.10",
     "@angular/cdk": "^6.2.0",
