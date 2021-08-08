@@ -18,8 +18,25 @@
   <base href="https://nikhildesu.github.io/myProfile/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.fc144800ff3c12157f30.css"></head>
+  <script>
+    $(document).ready(function() {
+  $(".scrollDown").click(function() {
+       $('html, body').animate({
+           scrollTop: $(".scrollToFooter").offset().top
+       }, 3000);
+   });
+  });
+  
+  $(document).ready(function() {
+  $(".scrollUp").click(function() {
+       $('html, body').animate({
+           scrollTop: $(".scrollUpHeader").offset().top 
+       }, 2000); 
+   });
+  });
+  </script>
+<link rel="stylesheet" href="styles.9be20e4792716adaee2e.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.06daa30a2963fa413676.js"></script><script type="text/javascript" src="polyfills.7d15441fbb154722a420.js"></script><script type="text/javascript" src="scripts.407cc0714c33a6211ae0.js"></script><script type="text/javascript" src="main.1e8d8c1c7b1a4d4ca15d.js"></script></body>
+<script type="text/javascript" src="runtime.06daa30a2963fa413676.js"></script><script type="text/javascript" src="polyfills.7d15441fbb154722a420.js"></script><script type="text/javascript" src="scripts.407cc0714c33a6211ae0.js"></script><script type="text/javascript" src="main.946e24f17ff785064c17.js"></script></body>
 </html>
